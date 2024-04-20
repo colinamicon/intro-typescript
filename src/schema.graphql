@@ -1,0 +1,12 @@
+"data for the playlist: name, description, id"
+type Query {
+  # query fields are entry points into the rest of our schema
+  featuredPlaylists: [Playlist!]! # list of playlists nonnullable, but can be empty
+}
+
+type Playlist {
+  # fields
+  id: ID!
+  name: String!
+  description: String
+}

@@ -12,6 +12,8 @@ Navigate to the root of the project directory, and run the following commands.
 npm install && npm run dev
 ```
 
+## node version 18.12.1
+
 The `final` branch of this repo contains the final stage of the course, with all of the steps and code completed! If you get stuck, you can refer to it and compare your code.
 
 ## Getting Help
